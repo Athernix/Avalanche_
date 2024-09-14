@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Pruebas/Hola_Mundo_Dinamico.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Pruebas/Hola_Mundo_Dinamico.sol": {
+			"keccak256": "0x379c065492a4082623ef070969adb188ff6345d37046820b8cc509d3e78ee4f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ae00fee7bddaaa52b70296ec2c624aadb025a46ceeb1c02b5a17d96d05f6d13c",
+				"dweb:/ipfs/QmbvYBVyf3HBrVGnia3sT6DGuX3d2zHRPXPbk23qD4YqXa"
+			]
+		}
+	},
+	"version": 1
+}
