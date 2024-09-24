@@ -6,7 +6,9 @@ contract tc_avax {
 
     // determinar la direccion de la billetera que crea el contrato
     address payable public owner;
-
+    /*
+       la variable date sea un timestamp para que se actualice cada vez que se ejecute la funcion
+    */
     struct Data {
         string date;
         string delivery_date;
