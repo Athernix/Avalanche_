@@ -16,13 +16,19 @@
 					{
 						"indexed": false,
 						"internalType": "string",
-						"name": "Data",
+						"name": "date",
 						"type": "string"
 					},
 					{
 						"indexed": false,
 						"internalType": "string",
 						"name": "delivery_date",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "product",
 						"type": "string"
 					},
 					{
@@ -75,6 +81,11 @@
 					},
 					{
 						"internalType": "string",
+						"name": "product",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
 						"name": "price",
 						"type": "string"
 					},
@@ -104,6 +115,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -113,6 +137,56 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_delivery_date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_product",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_price",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_code",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_cel_number",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "_status",
+						"type": "int8"
+					}
+				],
+				"name": "pushData",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -129,7 +203,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Lunes-23-Sep-24/Tc.avax.sol": "Tc_avax"
+			"Lunes-23-Sep-24/Tc.avax.sol": "tc_avax"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -144,11 +218,11 @@
 	},
 	"sources": {
 		"Lunes-23-Sep-24/Tc.avax.sol": {
-			"keccak256": "0x8a8037402faa1cf4c2349cbb35b0f3a13184a5da73318d9be268c4deb719e1f0",
+			"keccak256": "0x97ffec2cb1751ed1d8b2590f788a530320a1a0d37cae88197ea7423e606bb1d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1337d0fdec7cbce86e7f8d1ac4660453f542c1852f9a29dbe8ae6015b5d847b5",
-				"dweb:/ipfs/QmcZyJ87XnB3Q9mAdLFHV8MWpi9jpToEC6ZzLRAR4JXiyL"
+				"bzz-raw://68f510235a45b962b814d512363769efd0fbaa231fa8ef12229be0046ec5cf28",
+				"dweb:/ipfs/QmVXjTxpkHRgK8mUUkNNr2q9WbSdfkAVJfaXouWEypg4nQ"
 			]
 		}
 	},
